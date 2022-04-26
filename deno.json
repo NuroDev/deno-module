@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/"],
+      "exclude": []
+    },
+    "options": {
+      "arrowParens": "always",
+      "bracketSpacing": true,
+      "jsxBracketSameLine": true,
+      "printWidth": 100,
+      "semi": true,
+      "singleQuote": true,
+      "tabWidth": 4,
+      "trailingComma": "all",
+      "useTabs": true
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"],
+      "exclude": []
+    },
+    "rules": {
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"],
+      "tags": ["recommended"]
+    }
+  },
+  "tasks": {
+    "start": "deno run --importmap=import_map.json --unstable mod.ts"
+  }
+}
