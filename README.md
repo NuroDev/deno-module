@@ -46,3 +46,12 @@ import { ... } from "deno-module";
 // ...
 ```
 
+## ☁️ Deploying
+
+To set up a automatic publishing of your Deno module, you'll need to set up a GitHub webhook.
+
+```
+https://api.deno.land/webhook/gh/<moduleName>
+```
+
+I recommend reading through [this blog post](https://dev.to/craigmorten/how-to-publish-deno-modules-2cg6) that outlines each step needed to do this.
