@@ -17,6 +17,7 @@
     <br />
 
 [![License](https://img.shields.io/badge/-License-red.svg?style=for-the-badge)](https://github.com/nurodev/deno-module)
+[![Build](https://img.shields.io/github/workflow/status/nurodev/deno-module/CI?label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/NuroDev/deno-module/actions/workflows/ci.yml)
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://doc.deno.land/https://deno.land/x/deno-module/mod.ts)
 
 </sup>
