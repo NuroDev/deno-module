@@ -1,4 +1,4 @@
-import { assertEquals, assertNotEquals } from "std/testing/asserts.ts";
+import { assertEquals, assertNotEquals } from 'std/testing/asserts.ts';
 
 /**
  * Add
@@ -9,9 +9,9 @@ import { assertEquals, assertNotEquals } from "std/testing/asserts.ts";
  * @param {Number} b - Second number
  */
 export function add(a: number, b: number): number {
-  return a + b;
+	return a + b;
 }
 
-Deno.test("1 + 2 = 3", () => assertEquals(add(1, 2), 3));
+Deno.test('1 + 2 = 3', () => assertEquals(add(1, 2), 3));
 
-Deno.test("1 + 2 != 4", () => assertNotEquals(add(1, 2), 4));
+Deno.test('1 + 2 != 4', () => assertNotEquals(add(1, 2), 4));
