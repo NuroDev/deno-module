@@ -7,5 +7,5 @@
  * @param {Number} b - Second number
  */
 export function add(a: number, b: number): number {
-  return a + b;
+	return a + b;
 }
