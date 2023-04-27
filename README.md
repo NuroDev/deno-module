@@ -30,7 +30,7 @@
 To get started you will first need to install [Deno](http://deno.land/). View
 their website on [how to install Deno](https://deno.land/#installation)
 
-You can either import the module directly or add it to your `import_map.json`
+You can either import the module directly via an `import` or add it to your import map, preferraly inside of your `deno.json`
 **(Recommended)**:
 
 ```json
