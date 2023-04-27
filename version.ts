@@ -1,7 +1,7 @@
 /**
  * `VERSION` managed by https://deno.land/x/publish
  */
-export const VERSION = "0.1.1";
+export const VERSION = '0.1.1';
 
 /**
  * `prepublish` will be invoked before publish, return `false` to prevent the publish
