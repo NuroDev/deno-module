@@ -30,6 +30,7 @@
     }
   },
   "tasks": {
+    "format": "deno fmt ./src/",
     "start": "deno run --unstable mod.ts"
   }
 }
