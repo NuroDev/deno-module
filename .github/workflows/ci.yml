@@ -13,7 +13,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repo
+      - name: Clone repository
         uses: actions/checkout@v3
 
       - name: Setup Deno
@@ -22,10 +22,10 @@ jobs:
           deno-version: v1.x
 
       - name: Run formatting
-        run: deno fmt --check
+        run: deno fmt --check ./src/
 
       - name: Run linter
-        run: deno lint
+        run: deno lint ./src/
 
       - name: Run tests
-        run: deno test -A --unstable --importmap=import_map.json
+        run: deno test
