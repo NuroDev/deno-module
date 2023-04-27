@@ -35,16 +35,8 @@
   },
   "test": {
     "files": {
-      "include": ["./tests/**/*.test.ts"],
+      "include": ["./tests/"],
       "exclude": []
-    },
-    "options": {
-      "allowConsole": true,
-      "allowDisabledTests": true,
-      "allowUncaught": true,
-      "only": [],
-      "skip": [],
-      "timeout": 5000
     }
   }
 }
