@@ -1,6 +1,6 @@
 import { assertEquals, assertNotEquals } from 'std/testing/asserts.ts';
 
-import { add } from './add.ts';
+import { add } from '../mod.ts';
 
 Deno.test('1 + 2 = 3', () => assertEquals(add(1, 2), 3));
 
