@@ -32,5 +32,19 @@
   "tasks": {
     "format": "deno fmt ./src/",
     "start": "deno run --unstable mod.ts"
+  },
+  "test": {
+    "files": {
+      "include": ["./tests/**/*.test.ts"],
+      "exclude": []
+    },
+    "options": {
+      "allowConsole": true,
+      "allowDisabledTests": true,
+      "allowUncaught": true,
+      "only": [],
+      "skip": [],
+      "timeout": 5000
+    }
   }
 }
